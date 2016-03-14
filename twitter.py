@@ -52,7 +52,7 @@ def main():
 	    print("\n" + random_search_tweet(keyword) + "\n")
 	    time.sleep(1)
 	    play_more = play_again()
-	    if play_again == 'n':
+	    if play_more == 'n':
 	    	play = 1
 	    	print("finish")
 	    
