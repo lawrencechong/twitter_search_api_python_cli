@@ -4,10 +4,10 @@ from random import randint
 import urllib
 import time
 
-CONSUMER_KEY = 'kamB48MVVA2B9feX9gfS7R46g'
-CONSUMER_SECRET = 'QQCBnVdWhgXYeXSZCfFOV1sAgcT6mmyRRQ8VL6N6FObQumUT36'
-ACCESS_KEY = '704055394805665793-EAL6wtwQMYCGljMCeFHk2BYG7kO2d3y' 
-ACCESS_SECRET = 'SwXZWtOX9y21NDYwN7cdMl0FVWxjR7Cip0uP0WbEAWRew'
+CONSUMER_KEY = '####'
+CONSUMER_SECRET = '####'
+ACCESS_KEY = '####' 
+ACCESS_SECRET = '####'
 
 consumer = oauth.Consumer(key=CONSUMER_KEY, secret=CONSUMER_SECRET)
 access_token = oauth.Token(key=ACCESS_KEY, secret=ACCESS_SECRET)
