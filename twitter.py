@@ -37,18 +37,25 @@ def random_search_tweet (keyword):
 
 	return random_tweet
 
+def play_again():
+	answer = raw_input("Another? 'y' for yes 'n' for no: ")
+	if answer != 'y' and answer != 'n':
+			print("Not a valid response")
+			play_again()
+	return answer
+
 def main():
 	play = 0
 	while (play == 0):
 	    print("\nRandom tweet, input keyword")
 	    keyword = raw_input()
 	    print("\n" + random_search_tweet(keyword) + "\n")
-	    time.sleep(3)
-	    play_again = raw_input("Another? 'y' for yes 'n' for no: ")
+	    time.sleep(1)
+	    play_more = play_again()
 	    if play_again == 'n':
 	    	play = 1
 	    	print("finish")
-
+	    
 if __name__ == "__main__":
     main()
 
